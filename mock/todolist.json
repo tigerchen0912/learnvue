@@ -1,0 +1,24 @@
+{
+  "List":[
+    {
+      "text":"唱",
+      "done":false
+    },
+    {
+      "text":"跳",
+      "done":false
+    },
+    {
+      "text":"Rap",
+      "done":false
+    },
+    {
+      "text":"篮球",
+      "done":true
+    },
+    {
+      "text":"学习",
+      "done":false
+    }
+  ]
+}
