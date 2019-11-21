@@ -26,7 +26,7 @@
       handleClick() {
         if (this.from.username === '' || this.from.password === '') {
           this.$message.warning('用户名或密码不能为空！');
-        } else if (this.from.username !== 'tiger' || this.from.password !== '123456') {
+        } else if (this.from.username !== this.from.password) {
           this.$message.warning('账号或密码错误！');
         } else {
           this.$router.push({path: '/'});
